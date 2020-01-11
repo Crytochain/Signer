@@ -23,7 +23,7 @@
     "log4js": "^2.10.0",
     "LBR-api": "^1.1.11",
     "mongodb": "^3.1.10",
-    "mongoose": "^4.13.8",
+    "mongoose": "^5.8.7",
     "morgan": "^1.9.0",
     "number-to-bn": "^1.7.0",
     "rxjs": "^6.5.1",
