@@ -1,0 +1,10 @@
+{
+    "rpc": "rpc",
+    "rpcDebug": "rpc debug",
+    "connectionPrefix": "BTX",
+    "connectionPrefix2": "REG",
+    "connectionPrefix3": "TIT",
+    "connectionPrefix4": "TTF",
+    "connectionPrefix5": "HOD",
+    "getSubchainStatusHash": "0xab3c7d87"
+}

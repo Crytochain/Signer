@@ -1,0 +1,18 @@
+<seelog type="sync">
+	<outputs formatid="main">
+		<filter levels="trace,debug,info,warn,critical,error">
+			<console />
+		</filter>
+		<filter levels="debug,info,warn">
+			<rollingfile type="date" filename="logs/listen.log" fullname="true"
+				datepattern="2006-01-02" maxrolls="7" />
+		</filter>
+		<filter levels="critical,error">
+			<file path="logs/listen_error.log" />
+		</filter>
+	</outputs>
+
+	<formats>
+		<format id="main" format="[%Time %Date] %File:%Line [%LEV] %Msg%n" />
+	</formats>
+</seelog>
