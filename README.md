@@ -1,4 +1,4 @@
-# LBR_micro_explorer
+# LBR_explorer
 
 Configurable LBR Universal Browser
 
